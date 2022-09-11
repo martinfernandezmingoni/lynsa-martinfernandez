@@ -1,0 +1,188 @@
+@font-face {
+    font-family: Raleway;
+    src: url('./Fonts/Raleway-Regular.ttf');
+}
+
+@font-face{
+    font-family: Raleway-Bold;
+    src: url('./Fonts/Raleway-Bold.ttf');
+}
+
+@font-face{
+    font-family: Raleway-Italic;
+    src: url('./Fonts/Raleway-Italic.ttf');
+}
+
+@font-face{
+    font-family: LibreFranklin-Bold;
+    src: url('./Fonts/LibreFranklin-Bold.ttf');
+}
+
+@font-face{
+    font-family: LibreFranklin-Thin;
+    src: url('./Fonts/LibreFranklin-Thin.ttf');
+}
+
+body{
+    font-family: LibreFranklin, Arial, Helvetica, sans-serif;
+}
+
+.body{
+    padding: 60px 15px;
+}
+.title {
+font-family:'Akaya Telivigala', cursive;
+font-size: 2.5em;
+margin-top: 0;
+}
+.Lora{
+    font-family: 'Lora', serif;
+}
+
+header.main-header{
+    background-color: #34495E;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+ }
+
+ .nav-link{
+    color: white;
+    margin-right: -4px;
+    text-decoration: none;
+    width: 20%;
+    display: inline-block;
+ }
+ .text-center{
+    text-align: center
+ }
+ .red-text{
+    color: #f45b69;
+ }
+
+ .main-container{
+     min-height: 100vh;
+ }
+
+ .product img{
+     width: 250px;
+ }
+ .product h3{
+     font-size: 1.5em;
+     margin-top: 5px;
+     margin-bottom: 5px;
+ }
+ .card{
+     border-radius: 4px;
+     background-color: white;
+     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ }
+.threeD{
+    text-shadow: 0px 3px 0px #6b251d, 1px 13px 5px rgb(171, 168, 168);
+}
+
+.delay-1{
+    animation-delay: 0.7s;
+    position:relative;
+    z-index: 2;
+    }
+
+    .delay-10{
+    animation-delay: 1s;
+    position: relative;
+    z-index: 10;
+}
+
+div.product.animated:hover {
+    z-index: 100;
+}
+
+.zoom {
+       transition: transform 1.5s ;
+    }
+
+.zoom:hover {
+    position: absolute;
+    transform: scale(1.5);
+}
+
+#news-feed .news-block {
+    display: flex;
+    width: 100%;
+}
+
+#news-feed .news-block .left-block {
+    width:64%;
+    padding-right: 1%;
+    
+}
+
+#news-feed .news-block .right-block{
+    width: 34%;
+    padding-left: 1%;
+}
+
+#news-feed article{
+    display: flex;
+    flex-direction: column;
+}
+
+#news-feed .news-block .left-block article{
+    height: 100%;
+}
+
+#news-feed .news-block .right-block article{
+    height: 50%;
+}
+
+#news-feed h1 {
+    margin: 25px 0 20px 0;
+    font-family: LibreFranklin-Bold, sans-serif;
+    font-size: 36px;
+}
+
+#news-feed h2{
+    color: black;
+    font-family: LibreFranklin-Bold, sans-serif;
+    font-size: 24px;
+    flex-grow: 1;
+}
+#news-feed p {
+    flex-grow: 1;
+    font-family: LibreFranklin-Thin, sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+#news-feed figure{
+position: relative;
+margin: 0;
+margin-bottom: 25px;
+}
+
+#news-feed figure img{
+width: 100%;
+padding-bottom: 5px;
+border-bottom: 1px solid lightgrey;
+}
+
+#news-feed figure figcaption{
+width: auto;
+padding: 15px;
+border-radius: 5px;
+font-family: LibreFranklin-Bold, sans-serif;
+background: rgb(0, 0, 0, 0.6);
+
+position: absolute;
+bottom: 25px;
+left: 15px;
+}
+
+#news-feed figure:hover figcaption{
+background: black;
+}
+
+#news-feed figure figcaption span{
+color: white;
+}
